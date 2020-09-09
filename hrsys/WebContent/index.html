@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BBO人事资源管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="resource/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="shortcut icon" href="resource/image/favicon.ico" type="image/x-icon">
+</head>
+<body class="container-fluid" style="background-color: #333;">
+<!-- header部分 -->
+<div class="row" style="background-color: #9F1ACD; color: white;">
+	<div class="col-md-12" style="padding-left:15px; ">
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-0">
+				<h3 style="padding-left: 75px;font-family: 庞门正道标题体,Serif;margin-top:10px;padding-top: 5px;"><mark style="background: #199233;border-radius: 10px;">BBO</mark>人事资源管理系统</h3>
+			</div>
+			<!--  时钟 -->
+			<div class="col-sm-2 col-sm-offset-1" style="padding-top:10px;padding-right: 0 ">
+			<h5 id="showtime" style="color: white;"></h5>
+			</div>
+			<!--  用户名显示域 -->
+			<div class="col-sm-2 col-sm-offset-0" style="padding-top:10px;padding-right: 0 ">
+				<h5 id="uinfo" style="text-align: right;"></h5>
+			</div>
+			<!--  个人中心下拉框 -->
+			<div class="col-sm-1 " style="padding-top:10px;" >
+				<div class="dropdown" style="padding-left: 0" >
+					<button class="btn btn-default dropdown-toggle" type="button"
+						id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="true"
+						style="background-color: #1198D3; color: white;border: 0;">
+						个人中心 <span class="caret"></span>
+					</button>
+					<ul id="pcenter" class="dropdown-menu" aria-labelledby="dropdownMenu1" >
+						<li><a href="javascript:void(0)" target="frmContent">个人信息</a></li>
+						<li><a href="javascript:void(0)" target="frmContent">修改密码</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a id="btnExit">安全退出</a></li>
+					</ul>
+				</div>
+			</div><!--  个人中心下拉框结束 -->
+		</div>
+	</div>
+</div>
+<!-- 主要内容模块行 -->
+<div class="row" >
+	<!--  菜单模块开始 -->
+	<div id="menu" class="col-md-3" style="padding: 0;">
+		<a class="btn btn-block btn-primary" href="welcome.html"  target="frmContent" style=" width: 100%; border-radius: 0px;background-color:#e54df2;border: 0px; "  id="index_a" >
+		<span id="index_span" class="glyphicon glyphicon-home" style="float: left;"></span>首页</a>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px; "  href="#sys" >
+		<span  style="float: left;"></span>系统管理</a>
+		<div class="collapse" id="sys">
+			<a href="system/user.html" class="btn btn-block btn-default" target="frmContent">账号管理</a>
+			<a href="system/dict.html" class="btn btn-block btn-default" target="frmContent">数据字典管理</a>
+		</div>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px;"  href="#emp" >
+		<span  style="float: left;"></span>档案管理</a>
+		<div class="collapse" id="emp">
+			<a href="system/dept.html" class="btn btn-block btn-default" target="frmContent">部门管理</a>
+			<a href="system/employee.html" class="btn btn-block btn-default" target="frmContent">雇员信息</a>
+		</div>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px;"  href="#atte" >
+		<span  style="float: left;"></span>考勤与薪资</a>
+		<div class="collapse" id="atte">
+			<a href="system/attendmgr.html" class="btn btn-block btn-default" target="frmContent">考勤信息管理</a>
+			<a href="system/empsalary.html" class="btn btn-block btn-default" target="frmContent">雇员薪资管理</a>
+		</div>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px;"  href="#stat" >
+		<span  style="float: left;"></span>统计分析</a>
+		<div class="collapse" id="stat">
+			<a href="analyze/leave.html" class="btn btn-block btn-default" target="frmContent">请假统计</a>
+			<a href="analyze/attend.html" class="btn btn-block btn-default" target="frmContent">打卡统计</a>
+		</div>
+	</div>
+	<!--  菜单模块结束 -->
+	<!-- 右侧内容模块开始 -->
+	<div class="col-md-9" style="padding: 0;background-color: #567;">
+		<!-- 路径导航 -->
+		<ol id="breadcrumb" class="breadcrumb" style="text-align: right;background-color: #444;margin-bottom:5px;padding-bottom: 4px;">
+			<li><a href="welcome.html" target="frmContent" >首页</a></li>
+		</ol>
+		<!-- 内嵌框 子页面显示模块 -->
+		<div class="embed-responsive embed-responsive-16by9"  >
+			<iframe name="frmContent" id="frmContent" class="embed-responsive-item"  src="welcome.html"  ></iframe>
+		</div>
+	</div><!-- 右侧内容模块结束 -->
+</div>
+<!-- footer版权信息 --> 
+<div class="row" style="background-color: #9F1ACD; color: white;height: 30px;">
+	<div class="col-xs-12" style="top: 50%;text-align: center;top: 5px;" >
+			copyright © 2020 Vincent BlueberryOne All Rights Reserved.
+	</div>
+</div><!-- footer版权信息结束 -->
+</body>
+<script src="resource/js/jquery-3.5.1.min.js"></script>
+<script src="resource/bootstrap/js/bootstrap.min.js"></script>
+<script src="resource/js/index.js"></script>
+</html>

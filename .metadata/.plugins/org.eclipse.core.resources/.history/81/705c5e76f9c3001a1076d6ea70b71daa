@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BBO人事资源管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="resource/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="container-fluid">
+<div class="row" style="background-color: #9F1ACD; color: white;">
+	<div class="col-md-12" style="padding-left:15px; ">
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-0">
+				<h3 style="padding-left: 75px;">BBO人事资源管理系统</h3>
+			</div>
+			<!--  时钟 -->
+			<div class="col-sm-3 col-sm-offset-1" style="padding-top:10px;padding-right: 0 ">
+			<h5 id="showtime" style="color: white;"></h5>
+			</div>
+			<!--  用户名显示域 -->
+			<div class="col-sm-1 col-sm-offset-0" style="padding-top:10px;padding-right: 0 ">
+				<h5 id="uinfo" style="text-align: right;"></h5>
+			</div>
+			<!--  个人中心下拉框 -->
+			<div class="col-sm-1 " style="padding-top:10px;" >
+					<div class="dropdown" style="padding-left: 0" >
+						<button class="btn btn-default dropdown-toggle" type="button"
+							id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="true"
+							style="background-color: #1198D3; color: white;border: 0;">
+							个人中心 <span class="caret"></span>
+						</button>
+						<ul id="pcenter" class="dropdown-menu" aria-labelledby="dropdownMenu1" >
+							<li><a href="#" target="frmContent">个人信息</a></li>
+							<li><a href="#" target="frmContent">修改密码</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a id="btnExit">安全退出</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<!--  右侧主题模块开始 -->
+	<div id="menu" class="col-md-3" style="padding: 0;">
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px; "  href="#sys" >
+		<span ></span>系统管理</a>
+		
+		<div class="collapse" id="sys">
+			<a href="system/user.html" class="btn btn-block btn-default" target="frmContent">用户管理</a>
+			<a href="javascript:void(0)" class="btn btn-block btn-default" target="frmContent">数据字典</a>
+		</div>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px;"  href="#emp" >
+		<span ></span>档案管理</a>
+		<div class="collapse" id="emp">
+			<a href="system/dept.html" class="btn btn-block btn-default" target="frmContent">部门管理</a>
+			<a href="javascript:void(0)" class="btn btn-block btn-default" target="frmContent">员工信息</a>
+		</div>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px;"  href="#atte" >
+		<span ></span>考勤管理</a>
+		<div class="collapse" id="atte">
+			<a href="javascript:void(0)" class="btn btn-block btn-default" target="frmContent">考勤管理</a>
+			<a href="system/empsalary.html" class="btn btn-block btn-default" target="frmContent">薪资管理</a>
+		</div>
+		<a class="btn btn-block btn-primary" data-toggle="collapse"  style="width: 100%;border-radius: 0px;"  href="#stat" >
+		<span ></span>统计分析</a>
+		<div class="collapse" id="stat">
+			<a href="javascript:void(0)" class="btn btn-block btn-default" target="frmContent">请假统计</a>
+			<a href="javascript:void(0)" class="btn btn-block btn-default" target="frmContent">打卡统计</a>
+		</div>
+	</div>
+	<!--  右侧主题模块结束 -->
+	<div class="col-md-9" style="padding: 0;">
+		<ol id="breadcrumb" class="breadcrumb" style="text-align: right;">
+			<li><a href="welcome.html" target="frmContent" >首页</a></li>
+		</ol>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe name="frmContent" class="embed-responsive-item"  src="welcome.html"></iframe>
+		</div>
+		
+	</div>
+</div>
+<!-- footer版权信息 --> 
+<div class="row">
+	<div class="col-md-12">
+		
+	</div>
+</div>
+</body>
+<script src="resource/js/jquery-3.5.1.min.js"></script>
+<script src="resource/bootstrap/js/bootstrap.min.js"></script>
+<script src="resource/js/index.js"></script>
+</html>

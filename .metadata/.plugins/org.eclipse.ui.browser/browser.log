@@ -1,0 +1,124 @@
+
+7月 08, 2020 08:05:59.99 NEW SESSION
+7月 08, 2020 08:05:59.99 
+7月 08, 2020 08:05:59.99 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+7月 08, 2020 08:05:59.99 
+7月 08, 2020 08:06:00.02 
+7月 08, 2020 08:06:00.02 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+7月 08, 2020 08:06:00.02 
+7月 08, 2020 08:06:00.14 
+7月 08, 2020 08:06:00.15 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 08, 2020 08:06:00.15 
+7月 08, 2020 08:06:00.18 
+7月 08, 2020 08:06:00.18 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 08, 2020 08:06:00.18 
+7月 08, 2020 08:31:35.44 
+7月 08, 2020 08:31:35.45 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 08, 2020 08:31:35.45 
+7月 08, 2020 08:31:35.57 
+7月 08, 2020 08:31:35.57 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 08, 2020 08:31:35.58 
+7月 08, 2020 08:31:35.61 
+7月 08, 2020 08:31:35.61 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 08, 2020 08:31:35.61 
+7月 08, 2020 08:31:50.94 
+7月 08, 2020 08:31:50.95 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 08, 2020 08:31:50.95 
+7月 08, 2020 08:31:50.97 
+7月 08, 2020 08:31:50.98 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 08, 2020 08:31:50.98 
+
+7月 09, 2020 08:02:28.28 NEW SESSION
+7月 09, 2020 08:02:28.28 
+7月 09, 2020 08:02:28.29 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 09, 2020 08:02:28.29 
+7月 09, 2020 08:02:28.30 
+7月 09, 2020 08:02:28.30 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 09, 2020 08:02:28.30 
+
+7月 11, 2020 22:36:14.75 NEW SESSION
+7月 11, 2020 22:36:14.75 
+7月 11, 2020 22:36:14.76 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 11, 2020 22:36:14.76 
+7月 11, 2020 22:36:14.80 
+7月 11, 2020 22:36:14.80 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 11, 2020 22:36:14.80 
+
+7月 13, 2020 21:18:24.31 NEW SESSION
+7月 13, 2020 21:18:24.31 
+7月 13, 2020 21:18:24.32 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 13, 2020 21:18:24.32 
+
+7月 16, 2020 11:14:36.51 NEW SESSION
+7月 16, 2020 11:14:36.51 [GFX1-]: Updating unknown shared surface: 60129542202
+7月 16, 2020 11:14:36.52 IPDL protocol error: Handler returned error code!
+7月 16, 2020 11:14:36.52 
+7月 16, 2020 11:14:36.52 ###!!! [Parent][DispatchAsyncMessage] Error: PWebRenderBridge::Msg_UpdateResources Processing error: message was deserialized, but the handler returned false (indicating failure)
+7月 16, 2020 11:14:36.52 
+
+7月 17, 2020 08:45:34.95 NEW SESSION
+7月 17, 2020 08:45:34.95 
+7月 17, 2020 08:45:34.96 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 17, 2020 08:45:34.96 
+7月 17, 2020 08:45:35.01 
+7月 17, 2020 08:45:35.01 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 17, 2020 08:45:35.02 
+7月 17, 2020 10:43:17.17 
+7月 17, 2020 10:43:17.18 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 17, 2020 10:43:17.19 
+7月 17, 2020 10:43:17.24 
+7月 17, 2020 10:43:17.24 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 17, 2020 10:43:17.24 
+
+7月 17, 2020 21:48:31.41 NEW SESSION
+7月 17, 2020 21:48:31.41 
+7月 17, 2020 21:48:31.42 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+7月 17, 2020 21:48:31.43 
+7月 17, 2020 21:48:31.49 
+7月 17, 2020 21:48:31.50 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+7月 17, 2020 21:48:31.50 
+
+8月 18, 2020 12:33:58.81 NEW SESSION
+8月 18, 2020 12:33:58.81 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=28669b68400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:35:13.04 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008d7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:35:13.04 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008d7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:36:04.74 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008dbc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:36:04.75 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008dbc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:37:03.25 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008e0000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:37:03.26 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008e0000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 12:37:55.81 [Child 15248, MediaDecoderStateMachine #1] WARNING: Decoder=286008e2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+8月 18, 2020 13:00:27.96 
+8月 18, 2020 13:00:27.96 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8月 18, 2020 13:00:27.96 
+
+8月 18, 2020 22:02:50.16 NEW SESSION
+8月 18, 2020 22:02:50.16 
+8月 18, 2020 22:02:50.45 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8月 18, 2020 22:02:50.45 
+8月 18, 2020 22:02:50.45 
+8月 18, 2020 22:02:50.45 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8月 18, 2020 22:02:50.45 
+8月 18, 2020 22:02:50.45 
+8月 18, 2020 22:02:50.45 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8月 18, 2020 22:02:50.45 
+
+8月 19, 2020 14:14:28.71 NEW SESSION
+8月 19, 2020 14:14:28.72 
+8月 19, 2020 14:14:28.73 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8月 19, 2020 14:14:28.73 
+8月 19, 2020 14:14:28.83 
+8月 19, 2020 14:14:28.83 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8月 19, 2020 14:14:28.83 
+
+8月 20, 2020 14:31:22.59 NEW SESSION
+8月 20, 2020 14:31:22.59 
+8月 20, 2020 14:31:22.94 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8月 20, 2020 14:31:22.94 
+
+8月 23, 2020 20:28:53.21 NEW SESSION
+8月 23, 2020 20:28:53.21 
+8月 23, 2020 20:28:53.56 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8月 23, 2020 20:28:53.56 
+8月 23, 2020 20:28:53.56 
+8月 23, 2020 20:28:53.56 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8月 23, 2020 20:28:53.56 

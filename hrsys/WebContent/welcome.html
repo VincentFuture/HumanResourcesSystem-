@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+			html{
+				font-size: 7px;
+				height: relative;
+				padding-top: 100px;
+			}
+			body{
+				background-color: #222;
+				/*display: flex;*/
+				justify-content: center;
+				align-items: center;
+				min-height: 50vh;
+				
+			}
+			h2{
+				color: #333;
+				font-family: helvetica;
+				margin: 0;
+				padding: 0;
+				font-size: 8rem;
+				letter-spacing: -0.3rem;
+				position: relative;
+			}
+			h2:after{
+				content: attr(data-spotlight);
+				color: #9F1ACD;
+				position: absolute;
+				top: 0;
+				left: 0;
+				clip-path: ellipse(100px 100px at 0% 50%);
+				animation: spotlight 5s infinite;
+			}
+			@keyframes spotlight{
+				0%{
+					clip-path: ellipse(100px 100px at 0% 50%);
+				}
+				50%{
+					clip-path: ellipse(100px 100px at 100% 50%);
+				}
+				100%{
+					clip-path: ellipse(100px 100px at 0% 50%);
+				}
+			}
+</style>
+</head>
+<body style="margin-left: 50px;">
+<h1 style="text-align: center;"> </h1>
+<h2 data-spotlight="Welcome to BlueberryOne">Welcome to BlueberryOne</h2>
+<h2> Human Resources System </h2>
+<p style="color: white;font-size: 2.5em;">制作：vincent·zhang</p>
+</body>
+</html>

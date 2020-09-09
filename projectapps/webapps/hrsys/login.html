@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HRSystem</title>
+<link href="resource/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> 
+<link rel="shortcut icon" href="resource/image/favicon.ico" type="image/x-icon">
+<!--  设置栅格系统以设备大小优先 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  栅格系统布局 -->
+</head>
+<body class="container" style="background-image: url('resource/image/hrsysbgimg.jpg');">
+	<div class="row" style="margin-top: 200px">
+		<div class="col-md-4 col-md-offset-5" >
+			<div class="panel panel-default">
+				<div class="panel-heading">BlueberryOne--人事资源管理系统</div>
+				<div class="panel-body">
+					<form id="frmLogin" >
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-user"></span>
+							</div>
+							<input type="text" name="uname" placeholder="user name" class="form-control">
+						</div>
+						<div class="input-group" style="margin-top: 10px">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-lock"></span>
+							</div>
+							<input type="password" name="upass" placeholder="password" class="form-control">
+						</div>
+					</form>
+				</div>
+				<div class="panel-footer">
+					<a id="btnLG" class="btn btn-default btn-block">登录</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<!-- 需先引入jQuery再引入bootstrap -->
+<script src="resource/js/jquery-3.5.1.min.js"></script>
+<script src="resource/bootstrap/js/bootstrap.min.js"></script>
+<script src="resource/js/login.js"></script>
+</html>
