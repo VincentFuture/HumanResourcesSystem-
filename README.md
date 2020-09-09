@@ -21,5 +21,5 @@ Project configuration Dynamic Web Moddle Version selects 4.0 -> Complete creatio
 Project attribute -> Project Facets -> View project configuration;
 # set up service:
 Double-click the link under the Servers TAB to establish the service default configuration (do not publish the project while establishing the service);
-Double-click the service has been established under the Servers TAB to enter configuration, configuration under Server Locations bar service path (path) Server, the custom path for D: \ something \ ComprehensiveProjectTraining \ projectapps;Deploy Path is webApps (under server Path);
+Double-click the service has been established under the Servers TAB to enter configuration, configuration under Server Locations bar service path (path) Server, the custom path for yours;Deploy Path is webApps (under server Path);
 
